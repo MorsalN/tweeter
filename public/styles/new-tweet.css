@@ -5,8 +5,18 @@
   width: 100%;
 }
 
+textarea {
+  width: 100%;
+}
+
 
 .tweet-count {
   display: flex;
   justify-content: space-between;
+  font-family: 'Bungee', cursive;
+}
+
+button {
+  background-color: #4056A1;
+  color: #FFFFFF;
 }
