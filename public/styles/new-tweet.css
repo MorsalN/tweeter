@@ -1,0 +1,12 @@
+.new-tweet {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.tweet-count {
+  display: flex;
+  justify-content: space-between;
+}

@@ -2,7 +2,7 @@ nav {
   display: flex;
   justify-content: space-between;
   height: 120px;
-  viewport-fit: 100vw;
+  /* viewport-fit: 100vw; */
   background-color: #4056A1;
   color: #FFFFFF;
   z-index: 10;
