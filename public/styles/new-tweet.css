@@ -3,7 +3,7 @@
   justify-content: space-between;
   flex-direction: column;
   width: 100%;
-  background-color: #f5dfbd;
+  background-color:#ccb8ab;
 }
 
 textarea {
@@ -11,7 +11,7 @@ textarea {
   width: 100%;
   border: none;
   border-bottom: solid #545149;
-  background-color: #f5dfbd;
+  background-color: #ccb8ab;
   margin-bottom: 0.75em;;
   outline: none;
 }
