@@ -3,12 +3,18 @@
   justify-content: space-between;
   flex-direction: column;
   width: 100%;
+  background-color: #f5dfbd;
 }
 
 textarea {
+  display: flex;
   width: 100%;
+  border: none;
+  border-bottom: solid #545149;
+  background-color: #f5dfbd;
+  margin-bottom: 0.75em;;
+  outline: none;
 }
-
 
 .tweet-count {
   display: flex;
