@@ -10,13 +10,13 @@ $(document).ready(function() {
     // console.log('count: ', countLength);
     if (countLength < 0) {
       $('#counter').addClass("red");
+    } else {
+      $('#counter').removeClass("red");
     }
   })
 });
 
-// else {
-//   $('#counter').removeClass("red");
-// }
+
 
 
 
