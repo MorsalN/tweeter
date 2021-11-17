@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  console.log('It\'s working!');
+  console.log('It\'s working! - composer-char-counter.js');
   //grabs id: tweet-text (index.html) and console.logs the input
   $("#tweet-text").on('input', function() {
     console.log('this: ', this)

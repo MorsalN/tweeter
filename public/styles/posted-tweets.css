@@ -23,6 +23,11 @@ article:hover{
 
 .header-left {
   display: flex;
+  align-items: center;
+}
+
+.header-left span {
+  margin-left: 0.5em;
 }
 
 
