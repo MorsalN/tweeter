@@ -6,10 +6,17 @@ $(document).ready(function() {
     const value = $(this).val().length;
     console.log('value: ', value);
     let count = $('#counter').text(140 - value);
-    count.text()
-    // console.log('count: ', count.text());
+    let countLength = count.text()
+    // console.log('count: ', countLength);
+    if (countLength < 0) {
+      $('#counter').addClass("red");
+    }
   })
 });
+
+// else {
+//   $('#counter').removeClass("red");
+// }
 
 
 
