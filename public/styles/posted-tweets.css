@@ -5,6 +5,10 @@ article {
   margin-top: 1.5em;
 }
 
+article:hover{
+  box-shadow: 0 0 11px
+}
+
 footer {
   display: flex;
   justify-content: space-between;
