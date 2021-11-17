@@ -1,3 +1,5 @@
+/* Compose New Tweet Section */
+
 .new-tweet {
   display: flex;
   justify-content: space-between;
@@ -23,10 +25,11 @@ textarea {
 }
 
 button {
-  background-color: #4056A1;
+  background-color: #704160;
   color: #FFFFFF;
 }
 
+/* When user goes over 140 characters */
 .red {
   color: red;
 }

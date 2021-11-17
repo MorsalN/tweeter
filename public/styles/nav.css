@@ -1,9 +1,11 @@
+/* Top nav bar (fixed) */
+
 nav {
   display: flex;
   justify-content: space-between;
   height: 120px;
   /* viewport-fit: 100vw; */
-  background-color: #4056A1;
+  background-color: #704160;
   color: #FFFFFF;
   z-index: 10;
   position: fixed;
@@ -12,23 +14,24 @@ nav {
   width: 100%;
 }
 
-.logo {
+
+/* Top-Left of Website */
+
+.website-logo {
   font-family: 'Bungee', cursive;
   margin: 1.5em 1.5em;
 }
 
 
+/* Top-Right of Website */
+
 .fa-angle-double-down {
-  color: pink;
+  color: rgb(236, 167, 178);
   margin-left: 3em ;
 }
 
-.generate-tweets {
+.website-write-new-tweets {
   display: flex;
   flex-direction: column;
   margin: 1.5em 1.5em;
 }
-
-/* .generate-tweets span {
-  color: red;
-} */
