@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/posted-tweets.css" type="text/css" />
+
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -36,7 +38,7 @@
         </div>
     </nav>
 
-  <header>
+  <header class="profile-header">
     <div class="profile">
         <img src="/images/profile-hex.png"> 
     </div>
@@ -53,6 +55,8 @@
 
     <!-- Page-specific (main) content here -->
     <main class="container">
+
+      <!-- Compose Tweet Section -->
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
         <label for="tweet-text"><strong>What are you humming about?</strong></label>
@@ -64,6 +68,31 @@
           </div>
         </form>
       </section>
+
+
+      <!-- Tweets That Are Posted -->
+        <article>
+          <header class="tweet-article">
+            <div class="header-left">
+              <img src="https://i.imgur.com/73hZDYK.png"></img>
+              <span>Newton</span>
+            </div>
+            <span>@aSirIsaac</span>
+          </header>
+
+          <div class="middle-section-article">
+            <p>Time for popeyes! :)</p>
+          </div>
+          <footer>
+            <label>100 days ago</label>
+            <div class="icons">
+              <i class="fas fa-flag"></i>
+              <i class="fas fa-retweet"></i>
+              <i class="fas fa-heart"></i>
+            </div>
+          </footer>
+        </article>
+
     </main>
     <script src="/scripts/composer-char-counter.js"></script>
   </body>
