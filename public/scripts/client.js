@@ -21,11 +21,9 @@ $(document).ready(function() {
   }
   
   const $createTweetElement = function(obj) {
-    console.log('Entered the function!')
     const $tweet = $(`
     <article class="tweet">
-
-        <header class="top-section-article">
+      <header class="top-section-article">
         <div class="header-left">
           <img src="${obj.user.avatars}"></img>
           <span>${obj.user.name}</span>
@@ -38,21 +36,19 @@ $(document).ready(function() {
       </div>
 
       <footer>
-        <label>${obj.created_at}</label>
+        <label>${timeago.format(obj.created_at)}</label>
         <div class="icons">
           <i class="fas fa-flag"></i>
           <i class="fas fa-retweet"></i>
           <i class="fas fa-heart"></i>
         </div>
       </footer>
+
     </article>
     `);
-
-    // document.body.innerHTML = $tweet;
     return $tweet;
   };
   
-  // const $tweet = $(`<article class="tweet">Hello world</article>`);
   const $tweet = $createTweetElement(tweetData);
 
   console.log('tweet: ', $tweet);
