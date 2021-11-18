@@ -37,7 +37,7 @@ $(document).ready(function() {
     for (const tweets of tweetsArray) {
       const $tweet = $createTweetElement(tweets);
         console.log('tweet: ', $tweet);
-        $('.tweets-container').append($tweet);
+        $('.tweets-container').prepend($tweet);
       }
   }
 
@@ -67,7 +67,7 @@ $(document).ready(function() {
       </header>
 
       <div class="middle-section-article">
-        <p>${obj.content.text}</p>
+        <p>${escape(obj.content.text)}</p>
       </div>
 
       <footer>
@@ -84,11 +84,14 @@ $(document).ready(function() {
     return $tweet;
   };
 
-
-
-
   // $renderTweets(data);
   $loadTweets();
+
+  const escape = function (str) {
+    let div = document.createElement("div");
+    div.appendChild(document.createTextNode(str));
+    return div.innerHTML;
+  };
 
 
 
