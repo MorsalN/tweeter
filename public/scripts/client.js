@@ -41,6 +41,19 @@ $(document).ready(function() {
       }
   }
 
+  const $loadTweets = function() {
+      console.log('Button clicked, performing ajax call...');
+      $.ajax({
+        url: "/tweets",
+        type: 'GET',
+      })
+      .then(function (tweetsArray) {
+        console.log('Success: ', tweetsArray);
+        $renderTweets(tweetsArray);
+        // $('.tweets-container').replaceWith($renderTweets);
+    });
+  }
+
   const $createTweetElement = function(obj) {
     const $tweet = $(`
     <article class="tweet">
@@ -71,7 +84,10 @@ $(document).ready(function() {
   };
 
 
-  $renderTweets(data);
+
+
+  // $renderTweets(data);
+  $loadTweets();
 
 
 
