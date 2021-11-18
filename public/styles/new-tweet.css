@@ -33,3 +33,9 @@ button {
 .red {
   color: red;
 }
+
+#error {
+  display: none;
+  border: 3px solid red;
+  
+}
