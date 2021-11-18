@@ -52,7 +52,8 @@ $(document).ready(function() {
         $renderTweets(tweetsArray);
         // $('.tweets-container').replaceWith($renderTweets);
     });
-  }
+  } 
+  window.$loadTweets = $loadTweets;
 
   const $createTweetElement = function(obj) {
     const $tweet = $(`
@@ -92,4 +93,6 @@ $(document).ready(function() {
 
 
 });
+
+
 

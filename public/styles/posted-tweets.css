@@ -60,6 +60,10 @@ label {
   margin-top: 1em;;
 }
 
+p {
+  word-wrap: break-word;
+}
+
 
 
 
