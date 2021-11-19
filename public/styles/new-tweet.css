@@ -6,6 +6,7 @@
   flex-direction: column;
   width: 100%;
   background-color:#ccb8ab;
+  margin: 2% 0%;
 }
 
 textarea {
@@ -13,6 +14,7 @@ textarea {
   width: 100%;
   border: none;
   border-bottom: solid #545149;
+  /* background-color: #ebe5e1; */
   background-color: #ccb8ab;
   margin-bottom: 0.75em;;
   outline: none;
@@ -26,6 +28,7 @@ textarea {
 
 button {
   background-color: #704160;
+  border-radius: 15%;
   color: #FFFFFF;
 }
 
@@ -34,8 +37,10 @@ button {
   color: red;
 }
 
+/* Error slideDown Message */
 #error {
   display: none;
   border: 3px solid red;
-  
+  justify-content: center;
+
 }

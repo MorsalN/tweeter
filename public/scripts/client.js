@@ -51,9 +51,9 @@ $(document).ready(function() {
       .then(function (tweetsArray) {
         console.log('Success: ', tweetsArray);
         $renderTweets(tweetsArray);
-        // $('.tweets-container').replaceWith($renderTweets);
     });
   } 
+  // Make loadTweets Global
   window.$loadTweets = $loadTweets;
 
   const $createTweetElement = function(obj) {

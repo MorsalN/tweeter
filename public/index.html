@@ -55,7 +55,7 @@
     </div>
     <!-- <br> -->
     <div class="name">
-        <h2>Your Name</h2>
+        <h2>Rai</h2>
     </div>
   </header>
 
@@ -66,21 +66,21 @@
       <!-- Compose New Tweet Section (new-tweet.css)-->
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
+
+        <!-- Error slideDown  -->
         <div id="error">
         </div>
         <label for="tweet-text"><strong>What are you humming about?</strong></label>
+
+        <!-- Form for Tweet Creation -->
         <form method="POST" action="/tweets" id="tweetSubmit">
           <textarea name="text" id="tweet-text"></textarea>
           <div class="tweet-count">
             <button id="btnSubmit" type="submit">Tweet</button>
             <output name="counter" class="counter" id="counter" for="tweet-text">140</output>
-          </div>
-
-
-          
-          <!-- <script id="too-short-error">alert('Type Something! The limit is 140 character :)')</script> -->
-            
+          </div>       
         </form>
+
       </section>
 
 

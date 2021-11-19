@@ -3,7 +3,7 @@
   height: 500px;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(231, 169, 144);
+  /* background-color: rgb(231, 169, 144); */
   position: relative;
   width: 100%;
   padding-top: 5.5em;
@@ -11,16 +11,3 @@
   background-image: url("https://www.transparenttextures.com/patterns/tree-bark.png");
 }
 
-/* Tablet Styles */
-/* @media only screen and (min-width: 768px) {
-  .website-header{
-  flex-direction: row;
-  }
-
-} */
-
-/* @media only screen and (min-width: 1024px) {
-  .website-header{
-    flex-direction: row;
-  }
-} */
