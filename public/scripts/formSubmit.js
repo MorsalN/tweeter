@@ -21,6 +21,7 @@ $(document).ready(function() {
         // Good Tweet
         } else {
           alertElement.hide();
+
           const serialize = $( this ).serialize();
           console.log('serialize: ', serialize);
 
@@ -29,9 +30,16 @@ $(document).ready(function() {
             type: 'POST',
             data: serialize,
             success: () => {
+              document.getElementById("counter").innerHTML = 140;
+              document.getElementById("tweet-text").value = '';
+
               $loadTweets();
             }
           }, console.log('xhr request'))
+
         }
       });
 });
+
+// $("#tweet-text").reset();
+// $("#counter").reset();

@@ -43,6 +43,7 @@ $(document).ready(function() {
   }
 
   const $loadTweets = function() {
+
       console.log('Button clicked, performing ajax call...');
       $.ajax({
         url: "/tweets",
