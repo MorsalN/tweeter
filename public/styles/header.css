@@ -11,4 +11,16 @@
   background-image: url("https://www.transparenttextures.com/patterns/tree-bark.png");
 }
 
+/* Tablet Styles */
+/* @media only screen and (min-width: 768px) {
+  .website-header{
+  flex-direction: row;
+  }
 
+} */
+
+/* @media only screen and (min-width: 1024px) {
+  .website-header{
+    flex-direction: row;
+  }
+} */
