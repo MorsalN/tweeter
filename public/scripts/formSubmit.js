@@ -41,5 +41,3 @@ $(document).ready(function() {
       });
 });
 
-// $("#tweet-text").reset();
-// $("#counter").reset();

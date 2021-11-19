@@ -3,10 +3,8 @@
   height: 500px;
   align-items: center;
   flex-direction: column;
-  /* background-color: rgb(231, 169, 144); */
   position: relative;
   width: 100%;
-  margin-left: 5%;
   padding-top: 5.5em;
   background-color: #b89279;
   background-image: url("https://www.transparenttextures.com/patterns/tree-bark.png");
